@@ -95,6 +95,7 @@ int main() {
                             {0, 0, 0, 0, 0, 0, 0, 0, 0},
                             {0, 0, 0, 0, 0, 0, 0, 0, 0}};
 
+    srand(time(NULL));
     for (int i = 0; i < 30; i++) {
         int row = rand() % 10;
         int col = rand() % 10;
